@@ -1,55 +1,61 @@
-# 🧠 Social Media & Mental Health
+# Social Media & Mental Health
 
-## 📖 About the Project
-This project was completed as part of the **Data Collection and Preparation** course.
+A university project completed for the **Data Collection and Preparation** course. The project explores a social-media and mental-health dataset through a reproducible Python workflow, from initial inspection and preparation to exploratory analysis and visualization.
 
-The main objective is to collect, clean, transform, and analyze a social media and mental health dataset using Python.
+## Project Objectives
 
----
+- Inspect the dataset structure and understand its variables.
+- Identify and handle data-quality issues.
+- Prepare and transform data for analysis.
+- Explore patterns and relationships using visualizations.
+- Document the data preparation workflow in a Jupyter notebook.
 
-## 📂 Dataset
-- **Dataset:** Social Media & Mental Health
-- **Format:** CSV
+## Workflow
 
----
+1. **Data loading** — read the CSV dataset into Pandas.
+2. **Data inspection** — review dimensions, data types, summary statistics, and missing values.
+3. **Data cleaning** — prepare the dataset for analysis.
+4. **Exploratory Data Analysis** — investigate distributions and relationships.
+5. **Feature preparation** — transform variables where needed.
+6. **Visualization** — communicate observations through charts.
 
-## 🚀 Project Workflow
-- 📥 Load the dataset
-- 🔍 Explore the data
-- 🧹 Clean the data
-- 📊 Perform Exploratory Data Analysis (EDA)
-- ⚙️ Transform the data
-- 🧩 Feature Engineering
-- 📈 Visualize the results
+## Tech Stack
 
----
-
-## 🛠️ Technologies
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+- Pandas and NumPy
+- Matplotlib and Seaborn
 - Scikit-learn
-- Google Colab
+- Jupyter Notebook / Google Colab
 
----
+## Repository Contents
 
-## 📁 Project Files
-```
+```text
 Social-Media-Mental-Health/
-│── project.ipynb
-│── social_media_mental_health.csv
-│── requirements.txt
-│── README.md
+├── Social_Media_Mental_Health.ipynb
+├── social_media_mental_health.csv
+├── requirements.txt
+└── README.md
 ```
 
----
+## Getting Started
 
-## 🎯 Course
-**Data Collection and Preparation**
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/by-shooq/Social-Media-Mental-Health.git
+   cd Social-Media-Mental-Health
+   ```
 
----
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 👩‍💻 Author
-**Shooq**
+3. Open `Social_Media_Mental_Health.ipynb` in Jupyter Notebook or Google Colab and run the notebook cells.
+
+## Notes
+
+This repository documents a course project and its data-preparation workflow. Interpretations and conclusions should be understood in the context of the dataset used in the notebook.
+
+## Author
+
+**Shouq** — Data Science Student
